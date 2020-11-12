@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Goldman', cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.6s;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px; 
+}
+
+img{
+    border-radius: 20px;
+    transition: ease-in-out 0.6s;
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+    img{
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    img{
+        width: 90%;
+        height: 80vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    img{
+        width: 90%;
+        height: 80vh;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1999px) {
+    img{
+        width: 90%;
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1200px){
+    img{
+        width: 60%;
+        height: 80vh;
+    }
+}
+
+
+h1:hover{
+    color: #79c6e4;
+    transition: ease-in-out 0.6s;
+}
+
+
+img:hover{
+    opacity: 50%;
+}
